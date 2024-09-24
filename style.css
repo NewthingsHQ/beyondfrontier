@@ -2,16 +2,20 @@
   font-family: "SUSE", "IBM Plex Sans Thai", "Segoe UI", Arial, sans-serif;
 }
 
+.thai {
+  font-family: "IBM Plex Sans Thai";
+}
+
 body {
   margin: 0;
-  padding: 10px;
+  padding: 20px !important;
   background-color: #f0f4f8;
   color: #333;
 }
 
 header {
-  background: linear-gradient(to right, #00b3b6, #0000ff);
-  padding: 5px;
+  background: #222;
+  padding: 0;
   text-align: center;
   display: flex;
   /* Use flexbox for layout */
@@ -44,7 +48,7 @@ nav ul li a {
 
 
 #hero {
-  background: linear-gradient(to bottom, #800080, #0000ff);
+  background: linear-gradient(135deg, #7000b0, #0000ff);
   color: white;
   padding: 100px 20px;
   text-align: center;
