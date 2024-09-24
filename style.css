@@ -91,10 +91,10 @@ footer {
 }
 
 .header-text {
-  size: 200% !important;
-  font-weight: 300 !important;
-  text-align: left !important;
-  font-kerning: 80% !important;
+  size: 200%;
+  font-weight: 300;
+  text-align: left;
+  font-kerning: 80%;
 }
 
 .bodytext {
