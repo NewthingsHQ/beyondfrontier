@@ -13,6 +13,9 @@ header {
   background: linear-gradient(to right, #00b3b6, #0000ff);
   padding: 20px;
   text-align: center;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out header elements */
+  align-items: center; /* Center align items vertically */
 }
 
 header h1 {
@@ -23,10 +26,10 @@ header h1 {
 nav ul {
   list-style: none;
   padding: 0;
+  display: flex; /* Use flexbox for horizontal menu */
 }
 
 nav ul li {
-  display: inline;
   margin: 0 15px;
 }
 
@@ -34,6 +37,7 @@ nav ul li a {
   color: white;
   text-decoration: none;
 }
+
 
 #hero {
   background: linear-gradient(to bottom, #800080, #0000ff);
