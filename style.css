@@ -4,14 +4,14 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   background-color: #f0f4f8;
   color: #333;
 }
 
 header {
   background: linear-gradient(to right, #00b3b6, #0000ff);
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   display: flex;
   /* Use flexbox for layout */
@@ -21,7 +21,7 @@ header {
   /* Center align items vertically */
 }
 
-header h1 {
+header h2 {
   margin: 0;
   color: white;
 }
@@ -87,8 +87,8 @@ footer {
 }
 
 .header-text {
-  size: 2em;
-  font-weight: 300;
-  text-align: left;
-  kerning: 90%
+  size: 2em !important;
+  font-weight: 300 !important;
+  text-align: left !important;
+  kerning: 90% !important;
 }
