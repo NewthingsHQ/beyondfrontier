@@ -16,6 +16,7 @@ body {
 header {
   background: #222;
   padding: 0;
+  margin: 0;
   text-align: center;
   display: flex;
   /* Use flexbox for layout */
@@ -98,5 +99,8 @@ footer {
 }
 
 .bodytext {
-  padding: 0 20px;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
 }
