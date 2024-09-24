@@ -1,5 +1,5 @@
 * {
-  font-family: "SUSE", 'Segoe UI', Arial, sans-serif;
+  font-family: "SUSE", "IBM Plex Sans Thai", "Segoe UI", Arial, sans-serif;
 }
 
 body {
@@ -13,9 +13,12 @@ header {
   background: linear-gradient(to right, #00b3b6, #0000ff);
   padding: 20px;
   text-align: center;
-  display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Space out header elements */
-  align-items: center; /* Center align items vertically */
+  display: flex;
+  /* Use flexbox for layout */
+  justify-content: space-between;
+  /* Space out header elements */
+  align-items: center;
+  /* Center align items vertically */
 }
 
 header h1 {
@@ -26,7 +29,8 @@ header h1 {
 nav ul {
   list-style: none;
   padding: 0;
-  display: flex; /* Use flexbox for horizontal menu */
+  display: flex;
+  /* Use flexbox for horizontal menu */
 }
 
 nav ul li {
@@ -80,4 +84,11 @@ footer {
   color: white;
   text-align: center;
   padding: 10px 0;
+}
+
+.header-text {
+  size: 2em;
+  font-weight: 300;
+  text-align: left;
+  kerning: 90%
 }
