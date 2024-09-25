@@ -17,6 +17,14 @@ p {
   font-size: 20px;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
 header {
   background: #222;
   padding: 0;
