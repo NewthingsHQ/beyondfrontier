@@ -26,12 +26,12 @@ h1 {
   margin-top: 0;
 }
 
-h2 {
-  font-size: 32px;
+.sigma {
+  font-size: 26px !important;
 }
 
-h2 .sigma {
-  font-size: 26px !important;
+h2 {
+  font-size: 32px;
 }
 
 header {
