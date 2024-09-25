@@ -1,5 +1,6 @@
 * {
   font-family: "SUSE", "IBM Plex Sans Thai", "Segoe UI", Arial, sans-serif;
+  font-size: 140%;
 }
 
 .thai {
@@ -51,7 +52,7 @@ nav ul li a {
 #hero {
   background: linear-gradient(135deg, #7000b0, #0000ff);
   color: white;
-  padding: 100px 20px;
+  padding: 50px 20px;
   text-align: center;
 }
 
@@ -89,13 +90,6 @@ footer {
   color: white;
   text-align: center;
   padding: 10px 0;
-}
-
-.header-text {
-  size: 200%;
-  font-weight: 300;
-  text-align: left;
-  font-kerning: 80%;
 }
 
 .bodytext {
