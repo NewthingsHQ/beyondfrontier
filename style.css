@@ -17,8 +17,8 @@ p {
   font-size: 20px;
 }
 
-b .large {
-  font-size: 24px;
+.large {
+  font-size: 24px !important;
 }
 
 h1 {
