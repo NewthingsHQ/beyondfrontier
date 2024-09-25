@@ -1,6 +1,5 @@
 * {
   font-family: "SUSE", "IBM Plex Sans Thai", "Segoe UI", Arial, sans-serif;
-  font-size: 140%;
 }
 
 .thai {
@@ -12,6 +11,10 @@ body {
   padding: 0;
   background-color: #f0f4f8;
   color: #333;
+}
+
+p {
+  font-size: 20px;
 }
 
 header {
